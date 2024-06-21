@@ -1,0 +1,101 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "num",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numm",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "suma {num} mas {numm}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "num",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numm",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "resta {num} menos {numm}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "num",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numm",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivideIntent",
+          "samples": [
+            "Divide {num} entre {numm}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "num",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numm",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicaIntent",
+          "samples": [
+            "Multiplica {num} por {numm}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora uthh"
+    }
+  }
+}
